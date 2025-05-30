@@ -1,8 +1,8 @@
 export default {
   async fetch(request, env, ctx) {
-    const ipList = ".rainyun.com
+    const ipList = `.rainyun.com
 *.*.rainyun.com
-"
+`;
 
     return new Response(ipList, {
       headers: {
