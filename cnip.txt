@@ -1,0 +1,2 @@
+.rainyun.com
+*.*.rainyun.com
