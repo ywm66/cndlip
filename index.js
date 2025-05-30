@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env, ctx) {
     // 手动用 \n 换行
-    const text = ".rainyun.com\n*.*.rainyun.com\n*.baidu.com";
+    const text = ".rainyun.com\n*.*.rainyun.com\n*.baidu.com\n";
 
     return new Response(text, {
       headers: {
