@@ -1,2 +1,14 @@
-.rainyun.com
+export default {
+  async fetch(request, env, ctx) {
+    const ipList = `.rainyun.com
 *.*.rainyun.com
+`;
+
+    return new Response(ipList, {
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8"
+      }
+    });
+  }
+}
+
