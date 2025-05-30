@@ -1,0 +1,6 @@
+# wrangler.toml
+name = "cnip"                             # Worker 名称
+main = "cnip/index.js"                    # 入口文件相对路径
+compatibility_date = "2025-05-31"         # 设置为今天或更早
+
+# 如果你要用自定义域名，写在 routes 里；也可以在 Cloudflare 控制面板里手动添加
